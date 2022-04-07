@@ -39,7 +39,7 @@ package javabasics.programFlowControl;
  *     }
  * }
  */
-public class OneDimensionalArray {
+public class UnidimensionalArray {
     public static void main(String[] args) {
         int i = 0;
         int k = 1;
@@ -61,7 +61,7 @@ public class OneDimensionalArray {
         System.out.println(strs.length);//获取数组strs长度
 
         //数组元素默认初始化
-        int a[] = new int[5];//使用动态初始化的时候，数组的元素会有默认值，数组类型的默认值是0，对象的默认类型是null
+        int[] a = new int[5];//使用动态初始化的时候，数组的元素会有默认值，数组类型的默认值是0，对象的默认类型是null
         System.out.println(a[3]); //a[3]的默认值为0
 
         //数组赋值
