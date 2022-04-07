@@ -1,4 +1,4 @@
-package javabasics;
+package work;
 
 /**
  * 文档注释
