@@ -1,6 +1,8 @@
 package javabasics.objectOrientedProgramming;
 
 /**
+ * 类的属性
+ *
  * 语法格式：修饰符 类型 属性名 = 初值;
  * 说明：修饰符 private:该属性只能由该类的方法访问。
  *      修饰符 public：属性可以被该类以外的方法访问。
