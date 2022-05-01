@@ -67,5 +67,14 @@ public class ObjectCreationAndUse {
         c.max(11, 30);
         c.max(3.24, 6.555);
         c.max(113.34, 234.24, 4324.34);
+
+        Person2 p2 = new Person2();
+        String[] ss = new String[] {"zhangsan","11"};
+        p2.printInfo(ss);
+        String[] ss1 = new String[] {"北京是xxx","133333333333","2343432434243242343443"};
+        p2.printInfo(ss1);
+
+        p2.printInfo1("lisi", "23", "男");
+        p2.printInfo1(ss1);
     }
 }
